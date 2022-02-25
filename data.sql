@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS books;
+
 CREATE TABLE books (
   isbn TEXT PRIMARY KEY,
   amazon_url TEXT,
